@@ -1,0 +1,25 @@
+.about{
+    padding: 200px 0;
+    background-image: url(../../../imgs/slider/img1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    .overlay{
+        @include overlay(#000000,1);
+    }
+    .about-desc{
+        width: 60%;
+        color:$whiteColor;
+        font-size: 48px;
+        position: relative;
+        z-index: 2;
+        line-height: 1.5;
+        .mark{
+            background-color: $mainColor2;
+            padding:10px ;
+        }
+
+    }
+}

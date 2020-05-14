@@ -1,0 +1,17 @@
+.btn{
+    background-color: rgba($mainColor2,.8);
+    padding: 10px 15px;
+    color:$subColor;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    &:hover{
+        background-color: rgba($mainColor2,1);
+        cursor: pointer;
+        font-weight: 650;
+        
+    }
+    &:focus{
+      outline: 0;
+    }
+}

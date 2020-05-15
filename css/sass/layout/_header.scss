@@ -48,6 +48,9 @@ header{
                 }
             }
         }
+        @media #{$maxMidium}{
+            display: none;
+        }
     }
     .lower-header{
         position: fixed;
@@ -65,6 +68,11 @@ header{
             display: flex;
             justify-content: space-between;
             
+            @media #{$maxMidium}{
+              flex-direction: column;
+              align-content: center;
+            }
+            
             .logo{
                 color:$mainColor2;
                 font-size: 35px;
@@ -81,6 +89,18 @@ header{
                     display: inline-block;
                     margin-left: 5px;
                     position: relative;
+                    @media #{$maxMidium}{
+                        display: block;
+                        text-align: center;
+                        border-bottom: 1px solid rgba($subColor3, 1);
+                      
+                    }
+                    &:nth-last-of-type(){
+                        border-bottom: 0;
+                    }
+                    
+
+
                     
                     a{
                         display: block;

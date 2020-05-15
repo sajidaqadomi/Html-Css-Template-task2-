@@ -91,6 +91,11 @@ footer {
                 .icon{
                     color: $mainColor;
                     font-size: 20px;
+                    transition: all .3s ease-in-out;
+                    &:hover{
+                        color: $mainColor2;
+
+                    }
                 }
             }
         }

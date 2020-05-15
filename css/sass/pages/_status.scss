@@ -1,0 +1,20 @@
+.status{
+    .status-content{
+        display: flex;
+        justify-content: space-between;
+        .status-item{
+            text-align: center;
+            color:$mainColor;
+            font-weight: 600;
+            .count{
+                font-size: 24px;
+                margin: 10px 0;
+
+            }
+            .state-name{
+                color: $mainColor2;
+                display: block;
+            }
+        }
+    }
+}

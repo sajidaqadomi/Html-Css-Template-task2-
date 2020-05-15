@@ -1,0 +1,24 @@
+.choose{
+    display: flex;
+    .choose-item{
+        width: 50%;
+        height: 70vh;
+        &.img-container{
+            @include background-img(url(../../../imgs/choose/img1.jpeg),fixed);
+        }
+        &.article{
+            padding: 40px 20px;
+            background-color: $mainColor;
+            text-transform: capitalize;
+            color: $whiteColor;
+            .article-title{
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            .article-desc{
+                margin-bottom: 15px;
+                line-height: 1.6;
+            }
+        }
+    }
+}

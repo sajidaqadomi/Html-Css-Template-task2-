@@ -4,5 +4,16 @@
     .services-content{
         display: flex;
         justify-content: space-between;
+        .services_item{
+            padding: 20px;
+            .services-title{
+                margin: 15px 0;
+                color:$mainColor;
+            }
+            .services-desc{
+                color:$subColor2;
+                line-height: 1.4
+            }
+        }
     }
 }

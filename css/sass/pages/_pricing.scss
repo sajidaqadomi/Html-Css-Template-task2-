@@ -1,0 +1,56 @@
+.pricing{
+     background-color: $subColor3; 
+     .pricing-items{
+         display: flex;
+         justify-content: space-between;
+         margin-top: 60px;
+         .card{
+             width: 32%;
+             background-color: $whiteColor;
+             padding: 30px;
+             position: relative;
+             transition: all .3s ease-in-out;
+             &:hover{
+                 top:-5px;
+                 box-shadow: -1px -2px 15px 5px rgba(#000000,.15);
+
+             }
+             .title{
+
+                 
+                 
+             }
+             .sub-title{
+                margin: 10px 0 20px 0;
+                color: $subColor2;
+            }
+            .price{
+                color: $mainColor;
+                background-color: $subColor3;
+                padding: 10px 0;
+                margin-bottom: 15px;
+               
+                span{
+                    font-weight: bold;
+                    font-size: 35px;
+                }
+            }
+            &:nth-of-type(2){
+                .price{
+                    background-color: $mainColor2;
+                    color: $whiteColor;
+                }
+                
+
+            }
+            .list{
+                margin-bottom: 15px;
+                .list-item{
+                    line-height: 1.8;
+                }
+            }
+         }
+
+
+     }
+}

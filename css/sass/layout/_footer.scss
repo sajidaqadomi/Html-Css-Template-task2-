@@ -1,0 +1,98 @@
+footer {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .footer-item {
+            padding: 20px 15px;
+            width: 32%;
+
+            .title {
+                color: $mainColor;
+                margin-bottom: 20px;
+                font-size: 25px;
+                font-weight: 600;
+
+                &.logo {
+                    color: $mainColor2;
+
+                    .mark {
+                        color: $mainColor;
+
+                        font-size: 32px;
+                    }
+
+                }
+            }
+
+            .site-desc {
+                line-height: 1.5;
+                margin-bottom: 15px;
+            }
+
+            .link {
+                color: $mainColor;
+                padding: 10px;
+                position: relative;
+                transition: all .3s ease-in-out;
+                cursor: pointer;
+
+                &:before {
+                    content: "\f054";
+                    font-family: FontAwesome;
+                    font-style: normal;
+                    font-weight: normal;
+                    text-decoration: inherit;
+                    margin-right: 2px;
+                    color: $mainColor;
+
+
+
+                }
+
+                &:hover {
+                    color: $mainColor2;
+                }
+
+
+            }
+
+            .address-list {
+                line-height: 2;
+
+                ul {
+                    li {
+                        a {
+                            color: $mainColor;
+                            transition: all .3s ease-in-out;
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+    .copyright{
+        padding: 50px 0;
+        .content{
+            display: flex;
+            justify-content: space-between;
+            .text{
+                width:70%;
+            }
+            
+            
+            .media-list{
+                display: flex;
+                justify-content: space-between;
+                width:30%;
+                .icon{
+                    color: $mainColor;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

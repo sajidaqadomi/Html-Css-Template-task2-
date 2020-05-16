@@ -878,6 +878,7 @@ footer .copyright .content .text {
   footer .copyright .content .text {
     width: 100%;
     font-size: 11px;
+    text-align: center;
   }
 }
 

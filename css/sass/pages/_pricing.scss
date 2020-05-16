@@ -4,6 +4,10 @@
          display: flex;
          justify-content: space-between;
          margin-top: 60px;
+         @media #{$maxMidium}{
+           flex-direction: column;
+           
+        }
          .card{
              width: 32%;
              background-color: $whiteColor;
@@ -14,6 +18,12 @@
                  top:-5px;
                  box-shadow: -1px -2px 15px 5px rgba(#000000,.15);
 
+             }
+             @media #{$maxMidium}{
+                width: 80%;
+                margin: auto;
+                position: static;
+                margin-bottom: 15px;
              }
              .title{
 

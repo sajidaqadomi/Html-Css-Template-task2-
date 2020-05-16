@@ -4,6 +4,9 @@
     .services-content{
         display: flex;
         justify-content: space-between;
+        @media #{$maxMidium}{
+            flex-direction: column;
+        }
         .services_item{
             padding: 20px;
             .services-title{

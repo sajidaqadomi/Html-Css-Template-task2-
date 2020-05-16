@@ -20,6 +20,12 @@
             background-color: $mainColor2;
             padding:10px ;
         }
+        @media #{$maxMidium}{
+           width: 100%;
+           font-size: 44px;
+           line-height: 1.4;
+           text-align: center;
+        }
 
     }
 }

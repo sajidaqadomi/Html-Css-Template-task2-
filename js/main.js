@@ -8,6 +8,7 @@
 
 let upperHeader= document.getElementById('upper-header');
  let lowerHeader=document.getElementById('lower-header');
+ console.log(window.innerWidth);
 
 window.onscroll=function(){
     'use strict';
@@ -16,7 +17,11 @@ window.onscroll=function(){
         upperHeader.style.display='none';
         lowerHeader.classList.add('white-nav');
     }else{
-        upperHeader.style.display='block';
+        if(window.innerWidth>768){
+            upperHeader.style.display='block';
+
+        }
+       
         lowerHeader.classList.remove('white-nav');
 
         

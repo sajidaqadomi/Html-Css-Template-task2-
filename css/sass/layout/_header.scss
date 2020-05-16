@@ -2,6 +2,9 @@ header{
     
   
     .upper-header{
+        @media #{$maxMidium}{
+            display: none;
+        }
         
         padding: 15px 0;
         background-color: $mainColor;
@@ -48,9 +51,7 @@ header{
                 }
             }
         }
-        @media #{$maxMidium}{
-            display: none;
-        }
+       
     }
     .lower-header{
         position: fixed;

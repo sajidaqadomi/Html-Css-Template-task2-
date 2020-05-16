@@ -2,10 +2,20 @@
     .status-content{
         display: flex;
         justify-content: space-between;
+        @media #{$maxSmall}{
+            flex-direction: column;
+
+           
+         }
         .status-item{
             text-align: center;
             color:$mainColor;
             font-weight: 600;
+            @media #{$maxSmall}{
+                margin-bottom: 15px;
+                
+               
+             }
             .count{
                 font-size: 24px;
                 margin: 10px 0;
